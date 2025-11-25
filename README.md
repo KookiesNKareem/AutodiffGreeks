@@ -6,7 +6,7 @@ Production-ready C++ implementation achieving **commercial-grade** automatic dif
 
 - **5.85x faster** than forward-mode AD for multiple Greeks (1 backward pass vs N forward passes)
 - **10x faster** than finite differences for multi-asset options (scales with dimensionality)
-- **Machine precision** (10⁻¹⁶ error) vs FD's numerical error (10⁻⁴ to 10⁻⁶)
+- **Machine precision** (10^-16^ error) vs FD's numerical error (10^-4^ to 10^-6^)
 - **10x memory reduction** via batched checkpointing (151 MB vs 1.5 GB)
 - **Handles exotic derivatives** where analytical Greeks don't exist (Asian, path-dependent)
 - **Second-order Greeks** (Gamma, Vanna, Volga) computed automatically via nested duals
